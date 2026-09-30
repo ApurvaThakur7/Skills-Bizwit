@@ -1,0 +1,5 @@
+node_modules/
+videos/*/out/_frames/
+videos/*/out/_bundle/
+videos/*/out/review/
+videos/*/out/*.log
