@@ -7,15 +7,16 @@ import {Burst, Mark, Paper, Particles, Rings, Smear, Space, WordmarkDrop} from '
 // C · 120–186 (local 0–66) · black dot → white burst → logo lands, tagline.
 // ref: 0–8 black + tiny dot; 9 white flash, rings + ticks + particles; mark 9–14, letters drop 10–20;
 // tagline 33; slow push; 60–66 whip left with horizontal smear.
-export const LogoLockup: React.FC<{start: number; color?: string; h?: number}> = ({start, color = C.ink, h = 150}) => {
+// Wordmark only by default (the BIZ/WIT mark is kept for the opening emblem, never beside the wordmark).
+export const LogoLockup: React.FC<{start: number; color?: string; h?: number; mark?: boolean}> = ({start, color = C.ink, h = 150, mark = false}) => {
 	const f = useCurrentFrame();
 	const mp = interpolate(f, [start, start + 4, start + 8], [0.4, 1.12, 1], clamp);
 	const mrot = tween(f, [start, start + 8], [-18, 0]);
 	return (
 		<div style={{display: 'flex', alignItems: 'center', gap: h * 0.38}}>
-			<div style={{opacity: f < start ? 0 : 1, transform: `scale(${mp}) rotate(${mrot}deg)`, filter: f < start + 5 ? `blur(${(start + 5 - f) * 2}px)` : undefined}}>
+			{mark && <div style={{opacity: f < start ? 0 : 1, transform: `scale(${mp}) rotate(${mrot}deg)`, filter: f < start + 5 ? `blur(${(start + 5 - f) * 2}px)` : undefined}}>
 				<Mark size={h * 1.22} color={color} />
-			</div>
+			</div>}
 			<WordmarkDrop height={h} start={start + 1} color={color} />
 		</div>
 	);
@@ -49,7 +50,7 @@ export const ShotC: React.FC<{dur: number}> = ({dur}) => {
 			<Smear dx={-whip * 700} n={whip > 0 ? 8 : 1}>
 				<AbsoluteFill style={{transform: `translateX(${-whip * 900}px) scale(${push})`, justifyContent: 'center', alignItems: 'center'}}>
 					<div style={{transform: `translateY(${lift}px)`, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-						<LogoLockup start={B + 2} />
+						<LogoLockup start={B + 2} h={170} />
 						<div
 							style={{
 								marginTop: 44,

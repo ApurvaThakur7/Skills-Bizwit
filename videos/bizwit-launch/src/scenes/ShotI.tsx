@@ -5,7 +5,7 @@ import {EASE, clamp, hash, tween} from '../lib/anim';
 import {Avatar, Caret, Orb, Space, darkCard, typed} from '../lib/kit';
 
 // I · 606–705 (local 0–99; ref 20.2–23.5) · dark, "build connections, not impressions." → ours
-// "if it repeats, / it should be automated."
+// "what should we / automate first?"
 // ref: 0–6 accent flash decays to dark (speed lines), line 1 slams with blur 0–5, line 2 horizontal-blur slam 5–12;
 // hold centred to 39; 39–52 headline shrinks & moves to top, card fades up (blurred) 45–54;
 // reply types 54–80, green "Sent" 80; pills pop left 82 / 91 and right 96.
@@ -78,9 +78,9 @@ export const ShotI: React.FC<{dur: number}> = () => {
 					lineHeight: 1.02,
 				}}
 			>
-				<div style={{color: '#fff', opacity: l1, transform: `scale(${1.4 - l1 * 0.4})`, filter: l1 < 1 ? `blur(${(1 - l1) * 16}px)` : undefined}}>if it repeats,</div>
+				<div style={{color: '#fff', opacity: l1, transform: `scale(${1.4 - l1 * 0.4})`, filter: l1 < 1 ? `blur(${(1 - l1) * 16}px)` : undefined}}>what should we</div>
 				<div style={{color: C.accent2, opacity: l2, transform: `translateX(${(1 - l2) * -140}px) scaleX(${1 + (1 - l2) * 0.5})`, filter: l2 < 1 ? `blur(${(1 - l2) * 18}px)` : undefined}}>
-					it should be automated.
+					automate first?
 				</div>
 			</div>
 

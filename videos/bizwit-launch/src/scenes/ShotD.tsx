@@ -2,15 +2,15 @@ import React from 'react';
 import {AbsoluteFill, Img, staticFile, useCurrentFrame} from 'remotion';
 import {C, F} from '../brand';
 import {EASE, tween} from '../lib/anim';
-import {Mark, Paper, Skel, Smear, card} from '../lib/kit';
+import {Paper, Skel, Smear, card} from '../lib/kit';
 
 // D · 186–249 (local 0–63) · app console, pages flip fast.
 // ref: 0–3 residual logo smear, sidebar appears 3–8 (items fade in top→bottom), page 1 "Studio" 15–30,
 // page 2 "Calendar" 33–42, page 3 "Inspiration" 45–55 — each: title slides in from right with blur,
 // cards stagger-fade; 57–63 whole view smears/fades out.
-const NAV = ['Overview', 'Voice Agents', 'AI Agents', 'Workflows', 'Automations', 'Insights', 'Filmmaking', 'Strategy'];
+const NAV = ['Overview', 'AI Calling', 'Lead Generation', 'Workflows', 'Creatives', 'Insights', 'HR & Hiring', 'Finance'];
 const PAGES = [
-	{t0: 13, title: 'Voice Agents', sub: 'Answer calls, qualify leads and book appointments, 24/7.', nav: 1, kind: 'voice'},
+	{t0: 13, title: 'AI Calling', sub: 'Answer calls, qualify leads and book appointments, 24/7.', nav: 1, kind: 'voice'},
 	{t0: 31, title: 'Workflows', sub: 'Multi-step processes running across your tools and platforms.', nav: 3, kind: 'shot'},
 	{t0: 43, title: 'Insights', sub: 'Make smarter decisions with live data insights.', nav: 5, kind: 'insight'},
 ] as const;
@@ -81,7 +81,6 @@ export const ShotD: React.FC<{dur: number}> = ({dur}) => {
 				{/* sidebar */}
 				<div style={{position: 'absolute', left: 0, top: 0, bottom: 0, width: 290, borderRight: `1px solid ${C.line}`, background: 'rgba(255,255,255,0.55)', padding: '46px 34px', opacity: sideIn}}>
 					<div style={{display: 'flex', alignItems: 'center', gap: 12, marginBottom: 40}}>
-						<Mark size={34} color={C.ink} />
 						<div style={{fontFamily: F.display, fontWeight: 800, fontSize: 24, letterSpacing: '-0.03em', color: C.ink}}>Bizwit AI</div>
 					</div>
 					{NAV.map((n, i) => {

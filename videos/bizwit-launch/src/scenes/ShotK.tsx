@@ -49,7 +49,7 @@ export const ShotK: React.FC<{dur: number}> = () => {
 
 			<AbsoluteFill style={{alignItems: 'center'}}>
 				<div style={{position: 'absolute', top: 170, transform: `scale(${interpolate(f, [0, 6], [2.4, 1], {...clamp, easing: EASE.out})})`, filter: f < 6 ? `blur(${(6 - f) * 3}px)` : undefined}}>
-					<LogoLockup start={3} h={160} />
+					<LogoLockup start={3} h={170} mark={false} />
 				</div>
 				<div style={{position: 'absolute', top: 438, fontFamily: F.display, fontWeight: 700, fontSize: 58, letterSpacing: '-0.035em', whiteSpace: 'nowrap'}}>
 					<span style={{color: C.ink, opacity: tween(f, [30, 36], [0, 1]), display: 'inline-block', transform: `translateY(${tween(f, [30, 37], [14, 0])}px)`}}>automate smarter, optimize faster.&nbsp;</span>
@@ -65,7 +65,7 @@ export const ShotK: React.FC<{dur: number}> = () => {
 						big={
 							<>
 								0<span style={{color: C.accent}}> → </span>
-								<Count f={f} start={62} dur={28} render={(p) => `${k(p * 110000)}${p > 0.99 ? '+' : ''}`} />
+								<Count f={f} start={62} dur={28} render={(p) => `${k(p * 276000)}${p > 0.99 ? '+' : ''}`} />
 							</>
 						}
 					/>
@@ -93,7 +93,7 @@ export const ShotK: React.FC<{dur: number}> = () => {
 									boxShadow: '0 14px 34px -10px rgba(0,128,255,0.7)',
 								}}
 							>
-								Book a free AI consultation
+								Book an AI consultation
 								<span style={{width: 44, height: 44, borderRadius: '50%', background: '#fff', color: C.accent, display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 800}}>→</span>
 							</div>
 							{f < 115 && (

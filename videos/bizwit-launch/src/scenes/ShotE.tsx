@@ -12,12 +12,13 @@ import {Avatar, Paper, Pointer, card} from '../lib/kit';
 // (retimed: click 84–90, exit 93–105) front card zooms toward centre with blur (hand-off to the editor shot).
 // ours: 1→24 then "/7" slams; "automation" / "every day, on autopilot."; stack = the 8 Bizwit services.
 const SERVICES = [
-	['Automated Workflows', 'Multi-step processes across your tools and platforms, running on their own.'],
-	['AI Voice Agents', '24/7 human-like voice agents that answer calls, qualify leads, book appointments.'],
-	['AI Agents', 'Sales & marketing agents for leads, content, social posts and email outreach.'],
-	['Real-Time Intelligence', 'Make smarter decisions with live data insights.'],
-	['AI Filmmaking', 'Cinematic AI videos for brands: AI ads, UGC and music videos.'],
-	['AI Strategy Consulting', 'Expert guidance to implement AI for growth.'],
+	['AI Creatives', 'AI images, posts, carousels, UGC and product videos, made with Higgsfield, Claude and more.'],
+	['AI Performance Marketing', 'Campaigns, creatives and targeting that learn and improve with every run.'],
+	['AI Calling', '24/7 human-like voice agents that answer calls, qualify leads, book appointments.'],
+	['AI Lead Generation', 'Find, enrich and reach the right leads with AI outreach across email and social.'],
+	['AI Interviews', 'First-round candidate interviews run by AI, scored and summarised for your team.'],
+	['AI Resume Screening', 'Screen every resume against the role in minutes, with a clear shortlist.'],
+	['HR & Finance Automation', 'Attendance, payroll prep, payment reminders and accounting, on autopilot.'],
 	['Custom AI Solutions', 'Tailor-made AI systems designed around your exact use case. No templates. No generic tools.'],
 ];
 

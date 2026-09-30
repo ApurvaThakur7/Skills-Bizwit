@@ -103,9 +103,9 @@ export const ShotB: React.FC<{dur: number}> = ({dur}) => {
 			{/* the question */}
 			<div style={{position: 'absolute', left: 150, top: 470, transform: `scale(${interpolate(f, [7, dur], [1, 1.07], clamp)})`, transformOrigin: '0% 50%', filter: rush > 0 ? `blur(${rush * 6}px)` : undefined}}>
 				<SlamLine
-					words={[{t: 'what'}, {t: 'should'}, {t: 'we'}, {t: 'automate'}, {t: 'first?'}]}
+					words={[{t: 'still'}, {t: 'running'}, {t: 'your'}, {t: 'business'}, {t: 'manually?'}]}
 					times={[7, 12, 20, 25, 36]}
-					size={114}
+					size={104}
 					color="#FFFFFF"
 					style={{textShadow: '0 6px 30px rgba(0,40,110,0.35)'}}
 				/>

@@ -9,6 +9,7 @@ import {ShotC} from './scenes/ShotC';
 import {ShotD} from './scenes/ShotD';
 import {ShotE} from './scenes/ShotE';
 import {ShotF} from './scenes/ShotF';
+import {ShotX} from './scenes/ShotX';
 import {ShotG, ShotH} from './scenes/ShotG';
 import {ShotI, ShotJ} from './scenes/ShotI';
 import {ShotK} from './scenes/ShotK';
@@ -23,6 +24,7 @@ export const SHOTS: {name: string; frames: number; Scene: React.FC<{dur: number}
 	{name: 'D-console', frames: 63, Scene: ShotD},
 	{name: 'E-count', frames: 105, Scene: ShotE},
 	{name: 'F-voice', frames: 126, Scene: ShotF},
+	{name: 'X-creatives', frames: 180, Scene: ShotX},
 	{name: 'G-week', frames: 108, Scene: ShotG},
 	{name: 'H-warp', frames: 18, Scene: ShotH},
 	{name: 'I-repeat', frames: 99, Scene: ShotI},

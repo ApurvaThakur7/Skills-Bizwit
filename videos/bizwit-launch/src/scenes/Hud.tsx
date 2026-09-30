@@ -9,14 +9,16 @@ const CHAPTERS: [number, string][] = [
 	[186, '00 / CONSOLE'],
 	[249, '01 / ALWAYS ON'],
 	[354, '02 / VOICE AGENTS'],
-	[480, '03 / WORKFLOWS'],
-	[606, '04 / INTELLIGENCE'],
-	[720, 'BIZWITAI.COM'],
+	[480, '03 / AI CREATIVES'],
+	[660, '04 / WORKFLOWS'],
+	[786, '05 / INTELLIGENCE'],
+	[900, 'BIZWITAI.COM'],
 ];
 // frames where the scene is light (dark text HUD)
 const LIGHT: [number, number][] = [
-	[123, 588],
-	[720, 900],
+	[123, 480],
+	[660, 768],
+	[900, 1080],
 ];
 
 export const Hud: React.FC = () => {
