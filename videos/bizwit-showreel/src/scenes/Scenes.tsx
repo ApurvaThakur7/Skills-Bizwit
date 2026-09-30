@@ -384,8 +384,8 @@ export const S8Outro: React.FC<{dur: number}> = ({dur}) => {
 	const pill = springAt(f, fps, 50, 'snappy');
 	const press = tween(f, [96, 101], [0, 1], EASE.snap) * tween(f, [104, 114], [1, 0]);
 	const url = tween(f, [66, 80], [0, 1]);
-	const cursorX = tween(f, [70, 96], [260, 40], EASE.inOut);
-	const cursorY = tween(f, [70, 96], [160, 30], EASE.inOut);
+	const cursorX = tween(f, [70, 96], [320, 150], EASE.inOut);
+	const cursorY = tween(f, [70, 96], [170, 60], EASE.inOut);
 	return (
 		<AbsoluteFill style={{background: C.bg}}>
 			<OrbBg y={42} size={1500} intensity={1} />
