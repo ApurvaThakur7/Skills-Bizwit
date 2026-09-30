@@ -1,0 +1,302 @@
+[
+ {
+  "file": "public/audio/sfx/pad.wav",
+  "frame": 0,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/beat.wav",
+  "frame": 0,
+  "volume": 0.55
+ },
+ {
+  "file": "public/audio/sfx/riser.wav",
+  "frame": 0,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/impact.wav",
+  "frame": 48,
+  "volume": 0.8
+ },
+ {
+  "file": "public/audio/sfx/ping.wav",
+  "frame": 49,
+  "volume": 0.4
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 52,
+  "volume": 0.7
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 67,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 72,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 80,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/impact.wav",
+  "frame": 85,
+  "volume": 0.7
+ },
+ {
+  "file": "public/audio/sfx/impact.wav",
+  "frame": 96,
+  "volume": 0.85
+ },
+ {
+  "file": "public/audio/sfx/whoosh_long.wav",
+  "frame": 110,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/impact.wav",
+  "frame": 123,
+  "volume": 0.9
+ },
+ {
+  "file": "public/audio/sfx/swell.wav",
+  "frame": 123,
+  "volume": 0.5
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 153,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 177,
+  "volume": 0.65
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 199,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 215,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 227,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 241,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 251,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 256,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 261,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 266,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 271,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 276,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 281,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/impact.wav",
+  "frame": 284,
+  "volume": 0.8
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 278,
+  "volume": 0.5
+ },
+ {
+  "file": "public/audio/sfx/click.wav",
+  "frame": 333,
+  "volume": 0.8
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 340,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 369,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/pop.wav",
+  "frame": 405,
+  "volume": 0.5
+ },
+ {
+  "file": "public/audio/sfx/ping.wav",
+  "frame": 450,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/click.wav",
+  "frame": 466,
+  "volume": 0.8
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 476,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/pop.wav",
+  "frame": 492,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/pop.wav",
+  "frame": 498,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 540,
+  "volume": 0.3
+ },
+ {
+  "file": "public/audio/sfx/whoosh_long.wav",
+  "frame": 566,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 588,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/impact.wav",
+  "frame": 600,
+  "volume": 0.9
+ },
+ {
+  "file": "public/audio/sfx/glitch.wav",
+  "frame": 598,
+  "volume": 0.35
+ },
+ {
+  "file": "public/audio/sfx/impact.wav",
+  "frame": 611,
+  "volume": 0.7
+ },
+ {
+  "file": "public/audio/sfx/whoosh.wav",
+  "frame": 626,
+  "volume": 0.5
+ },
+ {
+  "file": "public/audio/sfx/ping.wav",
+  "frame": 672,
+  "volume": 0.5
+ },
+ {
+  "file": "public/audio/sfx/ping.wav",
+  "frame": 684,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/riser.wav",
+  "frame": 680,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/whoosh_long.wav",
+  "frame": 703,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/impact.wav",
+  "frame": 720,
+  "volume": 0.95
+ },
+ {
+  "file": "public/audio/sfx/swell.wav",
+  "frame": 720,
+  "volume": 0.55
+ },
+ {
+  "file": "public/audio/sfx/pop.wav",
+  "frame": 750,
+  "volume": 0.45
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 782,
+  "volume": 0.3
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 788,
+  "volume": 0.3
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 794,
+  "volume": 0.3
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 800,
+  "volume": 0.3
+ },
+ {
+  "file": "public/audio/sfx/tick.wav",
+  "frame": 806,
+  "volume": 0.3
+ },
+ {
+  "file": "public/audio/sfx/pop.wav",
+  "frame": 780,
+  "volume": 0.4
+ },
+ {
+  "file": "public/audio/sfx/ping.wav",
+  "frame": 810,
+  "volume": 0.6
+ },
+ {
+  "file": "public/audio/sfx/click.wav",
+  "frame": 811,
+  "volume": 0.5
+ }
+]

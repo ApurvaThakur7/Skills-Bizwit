@@ -1,0 +1,6 @@
+# Reference footage belongs to its creator: keep it (and frames extracted from it) out of the repo.
+incoming/
+brief/reference/
+brief/match/
+brief/compare/*.jpg
+out/sample.mp4
